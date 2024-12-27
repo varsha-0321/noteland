@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{height: 100vh}
+.main a{background:#243045;
+width: 100vw;
+height: 100vh;
+display:flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+}
+.main a h1{color: white;}
+.main a img{height:60px;}
+.total{height: 100vh;
+display: grid;
+grid-template-columns: 25% auto;}
+.left{background:#243045;display: grid;grid-template-rows: 13% 77% 10%;}
+.up{display: flex;
+  justify-content: center;
+  align-items: center;
+ color: white;
+ border-bottom: 1.5px solid white;
+}
+.up img{height: 30px;
+}
+.notesList{overflow:scroll; height: 75vh;}
+.note{border: 1px solid white;background: white;border-radius: 12px;margin: 0.8rem;
+  height: 13vh;width:22vw ;}
+.note h1{color:blue;font-size:2rem;font-weight: bold;overflow: hidden;white-space: nowrap;}
+.note p{color:rgb(33, 26, 26);font-size:1.5rem;overflow: hidden;white-space: nowrap;}
+.left .down{justify-content: center;align-items: center;display: flex;}
+.down button{border:1px solid white;border-radius: 6px;
+  height:6vh;
+  width:90%;
+}
+
+
+.right{background:#02549e;display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;}
+
+
+.NONOTESFOUND{display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;}
+.NONOTESFOUND h3 {color: white;font-size: 0.9rem;margin-top: 3vh;}
+.NONOTESFOUND p{color: white;font-size: 0.6rem; margin-top: 2vh;}
+
+.createnewnote{display: flex;flex-direction: column;justify-content: center;
+  align-items: center;
+}
+.createNote{height:30vh ;
+  background:white;
+  border: 1px solid white;
+  padding: 1rem;
+  width: 30vw;
+  margin: 1rem;
+  border-radius: 12px;
+  display: flex;flex-direction: column;justify-content:space-around;align-items:center;
+}
+input,textarea{
+  display: block;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 0.8rem 0;
+}
+#createNoteButton{
+background:white;
+color:rgb(31, 30, 30);
+font-weight: bold;
+cursor:pointer;
+padding:0.8rem 2rem;
+border:none;
+margin:0.8rem 0;
+border-radius:12px;
+}
+.displaysection{height: 100vh; width:100%;
+   display: grid;
+  grid-template-rows: 13% auto;
+}
+.notedisplayheader{background: white;display: flex;flex-direction: row;
+  justify-content: space-between;align-items: center;
+}
+.notedisplayheader h1{font-size: 3.2rem;
+font-weight: bold;
+margin-left: 1.5rem;
+color:blue;
+}
+.buttondiv{margin-right: 3rem;width: 30%;display: flex;justify-content: space-around;}
+#taskbutton{height:5.5vh;
+width:9vw;
+border: none;
+border-radius: 12px;
+color: white;
+background: rgb(27, 167, 167);
+font-size:1rem;
+}
+#deletebutton{
+height:5.5vh;
+width:12vw;
+border: none;
+border-radius: 12px;
+color: white;
+background: rgb(163, 46, 58);
+font-size:1rem;
+}
+.notedisplaydiv{margin:2.3rem;
+background: white;  
+border: none;
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+}
+.notecontentdiv{font-size:2rem;margin: 1rem;}
+.createnewtask{display: flex;flex-direction: column;
+  justify-content:space-around;align-items: center;
+  position:absolute;
+ height:30vh;width:50vw ;
+}
+.inputdiv{background-color: bisque;height: 20vh;
+width: 40vw;
+border-radius: 30px;
+color: black;
+display: flex;
+justify-content: center;align-items: center;
+}
+.taskname{display: block;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  height: 5vh;
+  width: 80%;
+  background: bisque;
+  font-size: 1.5rem;
+}
+#createtask{height:5.5vh;
+  width:18vw;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  background: rgb(10, 115, 127);
+  font-size:1rem;
+}
+.tasklistdiv{display:flex ;flex-direction: column;}
+.tasklistdiv h4{color:blue;font-size:3rem;}
+.task{display: flex;align-items: center;font-size: 3rem;}
+
+
+
